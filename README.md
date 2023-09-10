@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an API that allows you to get all market prices for potatoes for yesterday and the maximum profit you could have made if you were the ultimate potato trader.
 
-Things you may want to cover:
+### To start the project
 
-* Ruby version
+- Run `bundle install`
+- Run `rails db:setup` to create the database and seed it
+- Run `rails server`
 
-* System dependencies
+### See the API responses
 
-* Configuration
+- Go to `http://localhost:3000/market_prices/index` to see all market prices for yesterday
+- Go to `http://localhost:3000/maximum_profits/index` to see the maximum profit for yesterday
 
-* Database creation
+### Run tests
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can run the API's test suite by running `bundle exec rspec`
