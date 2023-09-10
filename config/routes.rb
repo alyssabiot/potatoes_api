@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  root "market_prices#index"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  get "market_prices/index"
+  get "maximum_profits/index"
 end
