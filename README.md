@@ -10,8 +10,8 @@ This is an API that allows you to get all market prices for potatoes for yesterd
 
 ### See the API responses
 
-- Go to `http://localhost:3000/market_prices/index` to see all market prices for yesterday
-- Go to `http://localhost:3000/maximum_profits/index` to see the maximum profit for yesterday
+- Go to `http://localhost:3000/market_prices` to see all market prices for yesterday
+- Go to `http://localhost:3000/maximum_profits` to see the maximum profit for yesterday
 
 ### Run tests
 
